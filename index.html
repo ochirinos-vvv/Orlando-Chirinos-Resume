@@ -8,157 +8,164 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="container hero-grid">
-      <div>
-        <p class="eyebrow">CURRICULUM VITAE</p>
+  <div class="card">
+    <header class="hero">
+      <div class="avatar" aria-hidden="true">OC</div>
+      <div class="hero-text">
         <h1>Orlando Chirinos</h1>
         <h2>Ingeniero de Sistemas · Arquitecto Cloud · Head of IT Ops</h2>
-        <p class="location">Santiago de Chile</p>
-        <div class="contact">
-          <a href="tel:+56973641638">+56 9 7364 1638</a>
-          <a href="mailto:orlando.chirinos.a@gmail.com">orlando.chirinos.a@gmail.com</a>
-          <a href="https://linkedin.com/in/chirinoso" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
+        <p class="lead">
+          Ingeniero de Sistemas con amplia experiencia en el diseño y despliegue de arquitecturas
+          cloud (AWS, Azure, GCP) y experto en Inteligencia Artificial Generativa. He liderado
+          proyectos de arquitectura y modernización cloud para instituciones de banca, salud pública,
+          retail y logística en Chile. Combino una profunda visión técnica con estrategia empresarial
+          para liderar equipos de alto rendimiento, impulsando la innovación, la continuidad
+          operacional y la eficiencia de costos (FinOps).
+        </p>
       </div>
-      <div class="hero-actions">
-        <a class="button primary" href="assets/CV_Orlando_Chirinos.pdf" download>Descargar CV</a>
-        <a class="button secondary" href="https://linkedin.com/in/chirinoso" target="_blank" rel="noopener">LinkedIn ↗</a>
-      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <section class="side-block">
+          <h3 class="side-title">Contacto</h3>
+          <ul class="side-list contact-list">
+            <li>Santiago de Chile</li>
+            <li><a href="tel:+56973641638">+56 9 7364 1638</a></li>
+            <li><a href="mailto:orlando.chirinos.a@gmail.com">orlando.chirinos.a@gmail.com</a></li>
+            <li><a href="https://linkedin.com/in/chirinoso" target="_blank" rel="noopener">linkedin.com/in/chirinoso</a></li>
+          </ul>
+          <a class="button primary block" href="assets/CV_Orlando_Chirinos.pdf" download>Descargar CV</a>
+        </section>
+
+        <section class="side-block">
+          <h3 class="side-title">Habilidades</h3>
+          <ul class="side-list skills-list">
+            <li>Arquitectura Empresarial</li>
+            <li>Arquitectura de Soluciones</li>
+            <li>Arquitecturas agénticas</li>
+            <li>Orquestación multiagente</li>
+            <li>LLM Gateway</li>
+            <li>MCP / A2A</li>
+            <li>RAG / RAG as a Service</li>
+            <li>Prompt Management</li>
+            <li>Gobierno de IA</li>
+            <li>Harness Engineering</li>
+            <li>Python / Java / .NET Core / Node.js</li>
+            <li>React / Angular / Vue</li>
+            <li>API Manager / IBM API Connect / Kong / APIsix</li>
+            <li>LangChain / LangGraph</li>
+            <li>Google ADK / n8n</li>
+            <li>GCP / Azure / AWS</li>
+            <li>Kubernetes / OpenShift</li>
+            <li>Terraform / CI-CD</li>
+            <li>Estrategia de APIs</li>
+            <li>Liderazgo Técnico</li>
+          </ul>
+        </section>
+
+        <section class="side-block">
+          <h3 class="side-title">Idiomas</h3>
+          <div class="lang-item">
+            <div class="lang-row"><strong>Español</strong><span>Nativo</span></div>
+            <div class="bar"><span style="width:100%"></span></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-row"><strong>Inglés</strong><span>Intermedio</span></div>
+            <div class="bar"><span style="width:65%"></span></div>
+          </div>
+        </section>
+
+        <section class="side-block">
+          <h3 class="side-title">Logros</h3>
+          <ul class="side-list">
+            <li>Modernización y migración multi-cloud (Azure → GCP) de la infraestructura de la Cámara Chilena de la Construcción.</li>
+            <li>Diseño y construcción desde cero de un nuevo core y la arquitectura de la Sucursal Virtual e Integra Negocio de la CChC.</li>
+            <li>Impulso de la adopción de IA Generativa y LLMs en entornos empresariales.</li>
+            <li>Evolución de desarrollador a Arquitecto de Software y Líder Técnico, con mentoría continua a nuevos talentos.</li>
+          </ul>
+        </section>
+      </aside>
+
+      <main class="main">
+        <section class="content-block">
+          <h3 class="content-title">Experiencia laboral</h3>
+
+          <article class="job">
+            <div class="job-head">
+              <div><h4>NECTIA</h4><p>Head of IT Ops · Arquitecto Cloud & de Soluciones · Líder Técnico</p></div>
+              <span>Julio 2019 – Presente</span>
+            </div>
+
+            <p class="summary">Rol con doble foco: liderar la continuidad operacional de TI y actuar como arquitecto/consultor cloud para clientes estratégicos de banca, salud pública, retail y logística.</p>
+
+            <h5>Arquitectura Cloud & de Soluciones</h5>
+            <ul>
+              <li><strong>Cámara Chilena de la Construcción (CChC – OTIC):</strong> Arquitecto de solución de la Sucursal Virtual e Integra Negocio; diseño y construcción de un nuevo core y modernización de la arquitectura en Azure. Posteriormente, liderazgo de la migración de infraestructura de Azure a GCP.</li>
+              <li><strong>SERCOR:</strong> Definición de la modernización de nuevos sitios y construcción de la nueva arquitectura en AWS.</li>
+              <li><strong>Grupo Security:</strong> Definición de tecnologías y aplicación de lineamientos de arquitectura corporativa.</li>
+              <li><strong>Banchile:</strong> Diseño de arquitectura de solución en conjunto con el equipo de desarrollo.</li>
+            </ul>
+
+            <h5>Soporte y Continuidad Operacional Cloud (IT Ops)</h5>
+            <ul>
+              <li><strong>Coopeuch, FONASA y CENABAST:</strong> Soporte y operación cloud de servicios críticos, garantizando disponibilidad, estabilidad y continuidad operacional.</li>
+              <li>Liderazgo del equipo de soporte N1 y N2, gestión de incidentes críticos y mejora continua mediante observabilidad, automatización y FinOps.</li>
+            </ul>
+
+            <h5>Liderazgo Técnico (Tech Lead)</h5>
+            <ul>
+              <li><strong>Blue Express:</strong> LT de la célula de facturación (Liquidación): buenas prácticas, lineamientos de arquitectura y desbloqueo de limitantes técnicas.</li>
+              <li><strong>Autoplaza:</strong> LT de la célula de facturación (Cotizador), con foco en buenas prácticas y remoción de bloqueos técnicos.</li>
+              <li><strong>Parque Arauco:</strong> LT de la célula de soporte y continuidad operacional.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head"><div><h4>INPACT S.A.</h4><p>Líder Técnico / Tech Lead</p></div><span>Mayo 2018 – Julio 2019</span></div>
+            <ul>
+              <li>Desarrollo y soporte de plataformas bancarias con foco en seguridad y escalabilidad.</li>
+              <li>Coordinación de equipos técnicos y gestión de entregables en entornos de alta criticidad.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head"><div><h4>DESIS Limitada – Facturación.cl</h4><p>Desarrollador Web</p></div><span>Febrero 2018</span></div>
+            <ul><li>Implementación de soluciones web para facturación electrónica.</li></ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head"><div><h4>Cartonajes Grau Ltda.</h4><p>Desarrollador Full Stack</p></div><span>Octubre 2016 – Febrero 2017</span></div>
+            <ul><li>Desarrollo full stack de un ERP interno para la gestión operativa.</li></ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head"><div><h4>Venezolana de Telecomunicaciones C.A.</h4><p>Desarrollador de Sistemas</p></div><span>Junio 2011 – Agosto 2016</span></div>
+            <ul><li>Desarrollo y mantenimiento de sistemas corporativos y soporte a procesos críticos durante 5 años y 3 meses.</li></ul>
+          </article>
+        </section>
+
+        <section class="content-block">
+          <h3 class="content-title">Competencias técnicas</h3>
+          <div class="skills">
+            <div class="skill"><h4>Cloud & DevOps</h4><p>AWS (ECS, Lambda, RDS, API Gateway, S3), GCP (Cloud Run, BigQuery, Pub/Sub), Azure (AKS, Functions, Cosmos DB), Docker, Kubernetes, Terraform, GitLab CI/CD, Jenkins, Prometheus, Grafana.</p></div>
+            <div class="skill"><h4>Arquitectura de Software</h4><p>Microservicios, Serverless, APIs REST/GraphQL, arquitecturas orientadas a eventos, API Gateway, Kafka, RabbitMQ.</p></div>
+            <div class="skill"><h4>IA Generativa & LLMs</h4><p>Chatbots RAG (LangChain, Pinecone, FastAPI, OpenAI/Anthropic), agentes con Google ADK, MCP, N8N Workflows, Vector Search, Embeddings y pipelines de datos para fine-tuning.</p></div>
+            <div class="skill"><h4>Observabilidad & FinOps</h4><p>Automatización de despliegues, monitoreo, tuning de bases de datos, optimización de costos cloud y gestión de recursos.</p></div>
+            <div class="skill"><h4>Backend</h4><p>Node.js, NestJS, Java (Spring Boot), .NET Core, Python (FastAPI, Django).</p></div>
+            <div class="skill"><h4>Frontend</h4><p>React, Angular, Vue, Astro, Tailwind, Styled Components.</p></div>
+            <div class="skill"><h4>Bases de datos</h4><p>PostgreSQL, MySQL, SQL Server, MongoDB, Redis, ElasticSearch.</p></div>
+            <div class="skill"><h4>Seguridad & Gobernanza</h4><p>Keycloak, OAuth2, OpenID Connect, Kong y Apisix.</p></div>
+          </div>
+        </section>
+
+        <section class="content-block">
+          <h3 class="content-title">Estudios</h3>
+          <div class="simple-item"><h4>Ingeniero de Sistemas</h4><p>Universidad Nacional Experimental de la Fuerza Armada</p><span>2007 – 2012</span></div>
+        </section>
+      </main>
     </div>
-  </header>
-
-  <main class="container">
-    <section>
-      <div class="section-title"><span>01</span><h3>Perfil profesional</h3></div>
-      <p class="lead">
-        Ingeniero de Sistemas con amplia experiencia en el diseño y despliegue de arquitecturas
-        cloud (AWS, Azure, GCP) y experto en Inteligencia Artificial Generativa. He liderado
-        proyectos de arquitectura y modernización cloud para instituciones de banca, salud pública,
-        retail y logística en Chile. Combino una profunda visión técnica con estrategia empresarial
-        para liderar equipos de alto rendimiento, impulsando la innovación, la continuidad
-        operacional y la eficiencia de costos (FinOps).
-      </p>
-    </section>
-
-    <section>
-      <div class="section-title"><span>02</span><h3>Habilidades</h3></div>
-      <div class="tags">
-        <span class="tag">Arquitectura Empresarial</span>
-        <span class="tag">Arquitectura de Soluciones</span>
-        <span class="tag">Arquitecturas agénticas</span>
-        <span class="tag">Orquestación multiagente</span>
-        <span class="tag">LLM Gateway</span>
-        <span class="tag">MCP / A2A</span>
-        <span class="tag">RAG / RAG as a Service</span>
-        <span class="tag">Prompt Management</span>
-        <span class="tag">Gobierno de IA</span>
-        <span class="tag">Harness Engineering</span>
-        <span class="tag">Python / Java / .NET Core / Node.js</span>
-        <span class="tag">React / Angular / Vue</span>
-        <span class="tag">API Manager / IBM API Connect / Kong / APIsix</span>
-        <span class="tag">LangChain / LangGraph</span>
-        <span class="tag">Google ADK / n8n</span>
-        <span class="tag">GCP / Azure / AWS</span>
-        <span class="tag">Kubernetes / OpenShift</span>
-        <span class="tag">Terraform / CI-CD</span>
-        <span class="tag">Estrategia de APIs</span>
-        <span class="tag">Liderazgo Técnico</span>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-title"><span>03</span><h3>Experiencia profesional</h3></div>
-
-      <article class="job">
-        <div class="job-head">
-          <div><h4>NECTIA</h4><p>Head of IT Ops · Arquitecto Cloud & de Soluciones · Líder Técnico</p></div>
-          <span>Julio 2019 – Presente</span>
-        </div>
-
-        <p class="summary">Rol con doble foco: liderar la continuidad operacional de TI y actuar como arquitecto/consultor cloud para clientes estratégicos de banca, salud pública, retail y logística.</p>
-
-        <h5>Arquitectura Cloud & de Soluciones</h5>
-        <ul>
-          <li><strong>Cámara Chilena de la Construcción (CChC – OTIC):</strong> Arquitecto de solución de la Sucursal Virtual e Integra Negocio; diseño y construcción de un nuevo core y modernización de la arquitectura en Azure. Posteriormente, liderazgo de la migración de infraestructura de Azure a GCP.</li>
-          <li><strong>SERCOR:</strong> Definición de la modernización de nuevos sitios y construcción de la nueva arquitectura en AWS.</li>
-          <li><strong>Grupo Security:</strong> Definición de tecnologías y aplicación de lineamientos de arquitectura corporativa.</li>
-          <li><strong>Banchile:</strong> Diseño de arquitectura de solución en conjunto con el equipo de desarrollo.</li>
-        </ul>
-
-        <h5>Soporte y Continuidad Operacional Cloud (IT Ops)</h5>
-        <ul>
-          <li><strong>Coopeuch, FONASA y CENABAST:</strong> Soporte y operación cloud de servicios críticos, garantizando disponibilidad, estabilidad y continuidad operacional.</li>
-          <li>Liderazgo del equipo de soporte N1 y N2, gestión de incidentes críticos y mejora continua mediante observabilidad, automatización y FinOps.</li>
-        </ul>
-
-        <h5>Liderazgo Técnico (Tech Lead)</h5>
-        <ul>
-          <li><strong>Blue Express:</strong> LT de la célula de facturación (Liquidación): buenas prácticas, lineamientos de arquitectura y desbloqueo de limitantes técnicas.</li>
-          <li><strong>Autoplaza:</strong> LT de la célula de facturación (Cotizador), con foco en buenas prácticas y remoción de bloqueos técnicos.</li>
-          <li><strong>Parque Arauco:</strong> LT de la célula de soporte y continuidad operacional.</li>
-        </ul>
-      </article>
-
-      <article class="job">
-        <div class="job-head"><div><h4>INPACT S.A.</h4><p>Líder Técnico / Tech Lead</p></div><span>Mayo 2018 – Julio 2019</span></div>
-        <ul>
-          <li>Desarrollo y soporte de plataformas bancarias con foco en seguridad y escalabilidad.</li>
-          <li>Coordinación de equipos técnicos y gestión de entregables en entornos de alta criticidad.</li>
-        </ul>
-      </article>
-
-      <article class="job">
-        <div class="job-head"><div><h4>DESIS Limitada – Facturación.cl</h4><p>Desarrollador Web</p></div><span>Febrero 2018</span></div>
-        <ul><li>Implementación de soluciones web para facturación electrónica.</li></ul>
-      </article>
-
-      <article class="job">
-        <div class="job-head"><div><h4>Cartonajes Grau Ltda.</h4><p>Desarrollador Full Stack</p></div><span>Octubre 2016 – Febrero 2017</span></div>
-        <ul><li>Desarrollo full stack de un ERP interno para la gestión operativa.</li></ul>
-      </article>
-
-      <article class="job">
-        <div class="job-head"><div><h4>Venezolana de Telecomunicaciones C.A.</h4><p>Desarrollador de Sistemas</p></div><span>Junio 2011 – Agosto 2016</span></div>
-        <ul><li>Desarrollo y mantenimiento de sistemas corporativos y soporte a procesos críticos durante 5 años y 3 meses.</li></ul>
-      </article>
-    </section>
-
-    <section>
-      <div class="section-title"><span>04</span><h3>Competencias técnicas</h3></div>
-      <div class="skills">
-        <div class="skill"><h4>Cloud & DevOps</h4><p>AWS (ECS, Lambda, RDS, API Gateway, S3), GCP (Cloud Run, BigQuery, Pub/Sub), Azure (AKS, Functions, Cosmos DB), Docker, Kubernetes, Terraform, GitLab CI/CD, Jenkins, Prometheus, Grafana.</p></div>
-        <div class="skill"><h4>Arquitectura de Software</h4><p>Microservicios, Serverless, APIs REST/GraphQL, arquitecturas orientadas a eventos, API Gateway, Kafka, RabbitMQ.</p></div>
-        <div class="skill"><h4>IA Generativa & LLMs</h4><p>Chatbots RAG (LangChain, Pinecone, FastAPI, OpenAI/Anthropic), agentes con Google ADK, MCP, N8N Workflows, Vector Search, Embeddings y pipelines de datos para fine-tuning.</p></div>
-        <div class="skill"><h4>Observabilidad & FinOps</h4><p>Automatización de despliegues, monitoreo, tuning de bases de datos, optimización de costos cloud y gestión de recursos.</p></div>
-        <div class="skill"><h4>Backend</h4><p>Node.js, NestJS, Java (Spring Boot), .NET Core, Python (FastAPI, Django).</p></div>
-        <div class="skill"><h4>Frontend</h4><p>React, Angular, Vue, Astro, Tailwind, Styled Components.</p></div>
-        <div class="skill"><h4>Bases de datos</h4><p>PostgreSQL, MySQL, SQL Server, MongoDB, Redis, ElasticSearch.</p></div>
-        <div class="skill"><h4>Seguridad & Gobernanza</h4><p>Keycloak, OAuth2, OpenID Connect, Kong y Apisix.</p></div>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-title"><span>05</span><h3>Logros de liderazgo</h3></div>
-      <div class="achievements">
-        <p>Modernización y migración multi-cloud (Azure → GCP) de la infraestructura de la Cámara Chilena de la Construcción.</p>
-        <p>Diseño y construcción desde cero de un nuevo core y la arquitectura de la Sucursal Virtual e Integra Negocio de la CChC.</p>
-        <p>Impulso de la adopción de IA Generativa y LLMs en entornos empresariales.</p>
-        <p>Evolución de desarrollador a Arquitecto de Software y Líder Técnico, con mentoría continua a nuevos talentos.</p>
-      </div>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <div class="section-title"><span>06</span><h3>Formación</h3></div>
-        <div class="simple-item"><h4>Ingeniero de Sistemas</h4><p>Universidad Nacional Experimental de la Fuerza Armada</p><span>2007 – 2012</span></div>
-      </div>
-      <div>
-        <div class="section-title"><span>07</span><h3>Idiomas</h3></div>
-        <div class="languages"><div><strong>Español</strong><span>Nativo</span></div><div><strong>Inglés</strong><span>Nivel Intermedio</span></div></div>
-      </div>
-    </section>
-  </main>
+  </div>
 
   <footer><div class="container"><span>Orlando Chirinos</span><span>Cloud Architecture · IT Operations · Generative AI</span></div></footer>
 </body>
